@@ -1,0 +1,47 @@
+name: autismbuddy
+description: "A new Flutter project."
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.7.2
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+  image_picker: ^1.1.2
+  youtube_player_flutter: ^9.1.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - lib/assets/logo.png.png
+    - lib/assets/avatar1.jpeg
+    - lib/assets/avatar2.jpeg
+    - lib/assets/avatar3.jpeg
+    - lib/assets/emotion1.PNG
+    - lib/assets/emotion2.PNG
+    - lib/assets/emotion3.PNG
+    - lib/assets/emotion4.PNG
+    - lib/assets/emotion5.PNG
+    - lib/assets/emotion6.PNG
+    - lib/assets/emotion7.PNG
+    - lib/assets/emotion8.PNG
+    - lib/assets/action1.PNG
+    - lib/assets/action2.PNG
+    - lib/assets/action3.PNG
+    - lib/assets/action4.PNG
+    - lib/assets/action5.PNG
+    - lib/assets/action6.PNG
+    - lib/assets/action7.PNG
+    - lib/assets/action8.PNG
+
+dependency_overrides:
+  flutter_inappwebview: ^6.0.0

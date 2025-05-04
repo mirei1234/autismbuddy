@@ -1,0 +1,1 @@
+This directory is for image assets such as logos and icons used in the app.
